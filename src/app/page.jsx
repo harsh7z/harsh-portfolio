@@ -32,8 +32,15 @@ const App = () => {
   const connectRef = useRef(null);
   const footerRef = useRef(null);
 
-  const { socialLinks, education, skills, certificates, work, projects } =
-    portfolioData;
+  const { socialLinks, education, skills, certificates, work, projects } = portfolioData;
+
+  useEffect(() => {
+    if ("scrollRestoration" in window.history) {
+      window.history.scrollRestoration = "manual";
+    }
+
+    window.scrollTo(0, 0);
+  }, []);
 
   useGSAP(() => {
     const tl = gsap.timeline({
