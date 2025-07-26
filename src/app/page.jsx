@@ -263,7 +263,7 @@ const App = () => {
                       icon={faUpRightFromSquare}
                       className="w-6 h-6 mr-2"
                     />
-                    Check out more on projects on github
+                    Check out more projects on github
                   </span>
                 </a>
               </div>

@@ -48,7 +48,9 @@ const portfolioData = {
     "Python",
     "TensorFlow",
     "OpenCV",
-    "Cybersecurity",
+    "Linux",
+    "Docker",
+    "Git & GitHub",
     "React.js",
     "Next.js",
     "Tailwind CSS",
@@ -56,11 +58,9 @@ const portfolioData = {
     "Node.js",
     "Express.js",
     "MongoDB",
-    "Git & GitHub",
-    "Docker",
+    "GSAP",
     "AWS",
     "Postman",
-    "Linux",
   ],
 
 
@@ -107,7 +107,7 @@ const portfolioData = {
     {
       label: "Personal portfolio",
       img: "imgs/projects/portfolio.png",
-      skills: ["next.js", "react.js", "gsap","tailwind"],
+      skills: ["Next.js", "React.js", "GSAP","Tailwind"],
       description: "A modern, responsive personal portfolio built with Next.js, Tailwind CSS, and GSAP. Smooth scroll animations and section reveals enhance the user experience. Showcases skills, education, projects, certifications, and contact info in a clean, minimal design.",
       github: "https://github.com/harsh7z/harsh-portfolio",
       link: ""
@@ -116,10 +116,10 @@ const portfolioData = {
       label: "wecare",
       img: "imgs/projects/wecare.png",
       skills: [
-        "react.js", 
-        "express.js", 
-        "node.js",
-        "mongodb"],
+        "React.js", 
+        "Express.js", 
+        "Node.js",
+        "Mongodb"],
       description: "We Care is a personal project built using the MERN stack to help pet owners easily find and connect with reliable pet sitters. It features user-friendly search and booking options, making sure pets get the care they deserve while their owners are away.",
       github: "https://github.com/harsh7z/wecare-full-site",
       link: "https://harsh7z.github.io/wecare/"
