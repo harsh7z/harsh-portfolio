@@ -1,0 +1,75 @@
+import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+
+const ProjectCard = ({ item }) => {
+  return (
+    <div className="w-full sm:w-[calc(50%-4px)] h-[464px] p-1">
+      <div className="flex flex-col items-center justify-center w-full h-full border border-gray-200 rounded-sm overflow-hidden hover:shadow-lg transition-shadow duration-300 bg-white">
+        {/* Image Section */}
+        <div className="w-full h-[36%] relative overflow-hidden">
+          <Image
+            src={`/${item.img}`}
+            alt={item.label || "Project Image"}
+            fill
+            className="object-cover"
+            sizes="100%"
+          />
+        </div>
+
+        {/* Content Section */}
+        <div className="w-full h-[56%] flex flex-col gap-2 p-2 border-t border-gray-200">
+          <span className="text-lg font-medium">{item.label}</span>
+          <p className="text-md text-gray-500">{item.description}</p>
+
+          <div className="links flex gap-1 flex-wrap">
+            {item.skills.map((item, i) => (
+              <div
+                key={i}
+                className="w-fit bg-black px-3 py-1 rounded-sm flex justify-center"
+              >
+                <span className="text-white text-sm font-medium leading-tight">
+                  {item}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-auto w-full h-[12%]">
+          <div className="w-full h-full flex flex-c justify-between items-center gap-2 px-2 py-2">
+            <a
+              href={`${item.github}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full h-full bg-black  text-white text-md font-medium leading-tight rounded-sm flex justify-center items-center"
+            >
+              <FontAwesomeIcon icon={faGithub} className="w-6 h-6" />
+              <span className="ml-2">Github</span>
+            </a>
+
+            {item.link ? (
+              <a
+                href={`${item.link}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full h-full bg-black  text-white text-md font-medium leading-tight rounded-sm flex justify-center items-center"
+              >
+                <FontAwesomeIcon
+                  icon={faUpRightFromSquare}
+                  className="w-6 h-6"
+                />
+                <span className="ml-2">Open</span>
+              </a>
+            ) : (
+              <></>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ProjectCard;
