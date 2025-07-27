@@ -1,8 +1,6 @@
 @import 'tailwindcss';
 
 :root {
-  --color-background: #ffffff;
-  --color-foreground: #000000;
   font-family: var(--font-funnelsans), sans-serif;
 }
 
