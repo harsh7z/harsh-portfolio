@@ -148,8 +148,8 @@ const App = () => {
                   </div>
                 </div>
 
-                <p className="text-lg  pt-6  font-normal tracking-normal leading-relaxed">
-                  <span className="text-3xl font-semibold inline-block">
+                <p className="text-md  pt-6  font-normal tracking-normal leading-relaxed lg:text-lg">
+                  <span className="text-xl font-semibold inline-block lg:text-2xl">
                     Hi, I'm Harsh 😄{" "}
                   </span>
                   <br />
@@ -159,26 +159,20 @@ const App = () => {
 
               {/**about section */}
               <div ref={aboutRef} className="about flex flex-col opacity-0">
-                <span className="text-2xl font-semibold inline-block pt-4">
+                <span className="text-xl font-semibold inline-block pt-4 lg:text-2xl">
                   {" "}
                   About
                 </span>
-                <p className="text-lg text-justify leading-relaxed">
-                  I’m currently pursuing my{" "}
-                  <span className="font-medium underline">
-                    Master’s in Computer Science at the University of Alabama at
-                    Birmingham
-                  </span>
-                  . Prior to this, I completed my undergraduate studies in
-                  computer engineering, building a strong foundation in software
-                  development. Right now, I’m deeply exploring{" "}
-                  <span className="font-medium underline">
-                    artificial intelligence, applied machine learning, and
-                    cybersecurity
-                  </span>
-                  , fascinated by how smart systems can learn, adapt, and
-                  protect. Outside the classroom, I’m constantly learning
-                  through projects and hands-on exploration.
+                <p className="text-md leading-relaxed lg:text-lg">
+                  I’m currently pursuing my Master’s in Computer Science at the
+                  University of Alabama at Birmingham. Prior to this, I
+                  completed my undergraduate studies in computer engineering,
+                  building a strong foundation in software development. Right
+                  now, I’m deeply exploring artificial intelligence, applied
+                  machine learning, and cybersecurity, fascinated by how smart
+                  systems can learn, adapt, and protect. Outside the classroom,
+                  I’m constantly learning through projects and hands-on
+                  exploration.
                 </p>
               </div>
 
@@ -187,7 +181,7 @@ const App = () => {
                 ref={educationRef}
                 className="education flex flex-col opacity-0"
               >
-                <span className="text-2xl font-semibold inline-block pt-4">
+                <span className="text-xl font-semibold inline-block pt-4 lg:text-2xl">
                   Education
                 </span>
 
@@ -198,7 +192,7 @@ const App = () => {
 
               {/**work experience section */}
               <div ref={workRef} className="flex flex-col opacity-0">
-                <span className="text-2xl font-semibold inline-block pt-4">
+                <span className="text-xl font-semibold inline-block pt-4 lg:text-2xl">
                   Work Experience
                 </span>
 
@@ -209,7 +203,7 @@ const App = () => {
 
               {/**skill section */}
               <div ref={skillRef} className="flex flex-col opacity-0">
-                <span className="text-2xl font-semibold inline-block pt-4">
+                <span className="text-xl font-semibold inline-block pt-4 lg:text-2xl">
                   Skills
                 </span>
 
@@ -229,7 +223,7 @@ const App = () => {
 
               {/**certificates section */}
               <div ref={certificateRef} className="flex flex-col opacity-0">
-                <span className="text-2xl font-semibold inline-block pt-4">
+                <span className="text-xl font-semibold inline-block pt-4 lg:text-2xl">
                   Certificates
                 </span>
 
@@ -245,7 +239,7 @@ const App = () => {
                 ref={projectsRef}
                 className="projects flex flex-col opacity-0"
               >
-                <span className="text-2xl font-semibold inline-block pt-4">
+                <span className="text-xl font-semibold inline-block pt-4 lg:text-2xl">
                   Featured projects
                 </span>
 
