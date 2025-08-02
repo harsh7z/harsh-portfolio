@@ -7,7 +7,7 @@ const CertificateCard = ( {item} ) => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="w-full flex p-2 border-t border-gray-200 ">
+                    <div className="w-full flex p-2 border-t border-neutral-400">
                       <Image
                         src={`${item.img}`} // relative to the public folder
                         alt="Harsh Patel"
@@ -16,10 +16,10 @@ const CertificateCard = ( {item} ) => {
                         className="pointer-events-none"
                       />
                       <div className="flex flex-col">
-                        <span className="p-1">
+                        <span className="p-1 ">
                           {item.lable}{" "}
                         </span>
-                        <span className="p-1 text-gray-500">
+                        <span className="p-1 text-neutral-400 ">
                           {item.date}
                         </span>
                       </div>

@@ -60,7 +60,7 @@ const MiniCard = ({ item }) => {
           alt={`${item.label}`}
           width={64}
           height={64}
-          className="rounded-full pointer-events-none border border-gray-200 mr-2 shadow"
+          className="rounded-full pointer-events-none border border-neutral-800  mr-2 shadow"
         />
 
         <div className="flex-1/2 flex flex-col text-sm lg:text-lg">
@@ -72,11 +72,11 @@ const MiniCard = ({ item }) => {
                 <FontAwesomeIcon
                   icon={isExpanded ? faChevronUp : faChevronDown}
                   size="xs"
-                  className="text-gray-500"
+                  className="text-neutral-400"
                 />
               </span>
             </p>
-            <span className="font-normal text-gray-500">{item.date}</span>
+            <span className="font-normal text-neutral-400">{item.date}</span>
           </div>
           <p className="hidden lg:block">
             {item.sublabel}
@@ -84,7 +84,7 @@ const MiniCard = ({ item }) => {
               <FontAwesomeIcon
                 icon={isExpanded ? faChevronUp : faChevronDown}
                 size="xs"
-                className="text-gray-500"
+                className="text-neutral-400"
               />
             </span>
           </p>
@@ -94,8 +94,7 @@ const MiniCard = ({ item }) => {
       {/* Animated Description */}
       <div
         ref={contentRef}
-        // style={{ height: 0, overflow: "hidden", opacity: 0, display: "none" }}
-        className="ml-18 text-sm text-gray-500 hidden"
+        className="ml-18 text-sm text-neutral-400  hidden"
       >
         <div className="py-2">
           {item.description || "No description provided."}

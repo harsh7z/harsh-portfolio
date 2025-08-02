@@ -14,7 +14,7 @@ import { useGSAP } from "@gsap/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronCircleUp,
-  faUpRightFromSquare,
+  faSquareArrowUpRight,
 } from "@fortawesome/free-solid-svg-icons";
 
 // Register plugins
@@ -32,7 +32,8 @@ const App = () => {
   const connectRef = useRef(null);
   const footerRef = useRef(null);
 
-  const { socialLinks, education, skills, certificates, work, projects } = portfolioData;
+  const { socialLinks, education, skills, certificates, work, projects } =
+    portfolioData;
 
   useEffect(() => {
     if ("scrollRestoration" in window.history) {
@@ -110,7 +111,10 @@ const App = () => {
 
   return (
     <>
-      <div id="smooth-wrapper" className="overflow-hidden flex justify-center ">
+      <div
+        id="smooth-wrapper"
+        className="overflow-hidden flex justify-center bg-black text-white"
+      >
         <div
           id="smooth-content"
           ref={containerRef}
@@ -135,7 +139,7 @@ const App = () => {
                           href={`${item.url}`}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-block text-lg underline text-gray-500 hover:text-black"
+                          className="inline-block text-lg underline text-neutral-400 hover:text-white"
                         >
                           {item.label}
                         </a>
@@ -159,16 +163,16 @@ const App = () => {
                   {" "}
                   About
                 </span>
-                <p className="text-lg text-gray-500 text-justify leading-relaxed">
+                <p className="text-lg text-justify leading-relaxed">
                   I’m currently pursuing my{" "}
-                  <span className="text-black font-medium">
+                  <span className="font-medium underline">
                     Master’s in Computer Science at the University of Alabama at
                     Birmingham
                   </span>
                   . Prior to this, I completed my undergraduate studies in
                   computer engineering, building a strong foundation in software
                   development. Right now, I’m deeply exploring{" "}
-                  <span className="text-black font-medium">
+                  <span className="font-medium underline">
                     artificial intelligence, applied machine learning, and
                     cybersecurity
                   </span>
@@ -213,19 +217,13 @@ const App = () => {
                   {skills.map((item, i) => (
                     <div
                       key={i}
-                      className="w-fit bg-black px-3 py-1 rounded-sm flex justify-center"
+                      className="w-fit bg-white px-3 py-1 rounded-sm flex justify-center"
                     >
-                      <span className="text-white text-sm font-medium leading-tight">
+                      <span className="text-black text-sm font-medium leading-tight">
                         {item}
                       </span>
                     </div>
                   ))}
-
-                  <div className="w-fit bg-black px-3 py-1 rounded-sm flex justify-center">
-                    <span className="text-white text-sm font-medium leading-tight">
-                      React
-                    </span>
-                  </div>
                 </div>
               </div>
 
@@ -235,7 +233,7 @@ const App = () => {
                   Certificates
                 </span>
 
-                <div className="w-full flex flex-col border-b border-gray-200">
+                <div className="w-full flex flex-col border-b border-neutral-800">
                   {certificates.map((item, i) => (
                     <CertificateCard item={item} key={i} />
                   ))}
@@ -265,9 +263,9 @@ const App = () => {
                   rel="noopener noreferrer"
                   className="w-full h-full p-1"
                 >
-                  <span className="w-full h-full bg-black text-white text-md font-medium flex justify-center items-center rounded-sm p-2">
+                  <span className="w-full h-full bg-white text-black text-md font-medium flex justify-center items-center rounded-sm p-2">
                     <FontAwesomeIcon
-                      icon={faUpRightFromSquare}
+                      icon={faSquareArrowUpRight}
                       className="w-6 h-6 mr-2"
                     />
                     Check out more projects on github
@@ -278,7 +276,7 @@ const App = () => {
               {/**connect section */}
               <div
                 ref={connectRef}
-                className="connect text-2xl text-gray-500 py-6 lg:text-3xl opacity-0"
+                className="connect text-2xl py-6 lg:text-3xl opacity-0"
               >
                 <p>
                   Thanks for dropping by! I'm always open to meaningful
@@ -288,7 +286,7 @@ const App = () => {
                 <p>
                   {" "}
                   Have a project in mind or just want to say hi?{" "}
-                  <span className="text-black">
+                  <span>
                     Feel free to reach out via{" "}
                     <a
                       className="underline"
@@ -313,7 +311,7 @@ const App = () => {
               {/**footer section */}
               <div
                 ref={footerRef}
-                className="footer w-full p-8 mb-8 text-sm text-gray-500 flex flex-col justify-center items-center opacity-0 lg:24"
+                className="footer w-full p-8 mb-8 text-sm text-neutral-400 flex flex-col justify-center items-center opacity-0 lg:24"
               >
                 <span>© 2025 Harsh Patel</span>
                 <span>Guided by curiosity, grounded in craft.</span>
@@ -324,7 +322,7 @@ const App = () => {
                         href={`${item.url}`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block underline text-gray-500 hover:text-black"
+                        className="inline-block underline text-neutral-400 hover:text-white"
                       >
                         {item.label}
                       </a>
@@ -334,7 +332,7 @@ const App = () => {
                 <button onClick={scrollToTop} aria-label="Scroll to top">
                   <FontAwesomeIcon
                     icon={faChevronCircleUp}
-                    className="text-gray-500 hover:text-black transition cursor-pointer mt-2 text-2xl"
+                    className="text-netruel-400 hover:text-white transition cursor-pointer mt-2 text-2xl"
                   />
                 </button>
               </div>

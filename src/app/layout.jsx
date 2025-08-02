@@ -45,7 +45,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${FunnelSans.variable} w-screen h-screen antialiased select-none flex justify-center`}
+        className={`${FunnelSans.variable} w-screen h-screen antialiased select-none flex justify-center bg-black`}
       >
         {children}
       </body>

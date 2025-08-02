@@ -1,6 +1,3 @@
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-
 const portfolioData = {
   socialLinks: [
     //     {
@@ -11,17 +8,14 @@ const portfolioData = {
     {
       label: "LinkedIn",
       url: "https://www.linkedin.com/in/harshpatel03",
-      icon: faLinkedin,
     },
     {
       label: "GitHub",
       url: "https://github.com/harsh7z",
-      icon: faGithub,
     },
     {
       label: "Email Me",
       url: "mailto:harshapatel112003@gmail.com",
-      icon: faEnvelope,
     },
   ],
 
@@ -110,7 +104,7 @@ const portfolioData = {
       skills: ["Next.js", "React.js", "GSAP","Tailwind"],
       description: "A modern, responsive personal portfolio built with Next.js, Tailwind CSS, and GSAP. Smooth scroll animations and section reveals enhance the user experience. Showcases skills, education, projects, certifications, and contact info in a clean, minimal design.",
       github: "https://github.com/harsh7z/harsh-portfolio",
-      link: ""
+      link: "https://harsh7z.vercel.app"
     },
     {
       label: "wecare",
