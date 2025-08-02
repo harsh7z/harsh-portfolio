@@ -16,10 +16,10 @@ const CertificateCard = ( {item} ) => {
                         className="pointer-events-none"
                       />
                       <div className="flex flex-col">
-                        <span className="p-1 ">
+                        <span className="p-1 font-semibold lg:font-normal">
                           {item.lable}{" "}
                         </span>
-                        <span className="p-1 text-neutral-400 ">
+                        <span className="p-1 text-neutral-400 text-sm">
                           {item.date}
                         </span>
                       </div>

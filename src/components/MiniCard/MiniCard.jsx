@@ -66,7 +66,7 @@ const MiniCard = ({ item }) => {
         <div className="flex-1/2 flex flex-col text-sm lg:text-lg">
           <div className="font-bold flex flex-col lg:flex-row justify-between">
             <span>{item.label}</span>
-            <p className="font-normal lg:hidden">
+            <p className="font-semibold lg:hidden lg:font-normal">
               {item.sublabel}
               <span className="ml-2 absolute">
                 <FontAwesomeIcon
@@ -94,7 +94,7 @@ const MiniCard = ({ item }) => {
       {/* Animated Description */}
       <div
         ref={contentRef}
-        className="ml-18 text-sm text-neutral-400  hidden"
+        className="ml-18 text-sm text-neutral-400 font-semibold lg:font-normal hidden"
       >
         <div className="py-2">
           {item.description || "No description provided."}

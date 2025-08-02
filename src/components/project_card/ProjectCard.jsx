@@ -6,7 +6,7 @@ import { faSquareArrowUpRight } from "@fortawesome/free-solid-svg-icons";
 const ProjectCard = ({ item }) => {
   return (
     <div className="w-full sm:w-[calc(50%-4px)] h-[464px] p-1">
-      <div className="flex flex-col items-center justify-center w-full h-full border border-neutral-800 rounded-sm overflow-hidden hover:shadow-lg transition-shadow duration-300 bg-black">
+      <div className="flex flex-col items-center justify-center w-full h-full border border-neutral-700 rounded-sm overflow-hidden hover:shadow-lg transition-shadow duration-300 bg-black">
         {/* Image Section */}
         <div className="w-full h-[36%] relative overflow-hidden">
           <Image
@@ -19,9 +19,9 @@ const ProjectCard = ({ item }) => {
         </div>
 
         {/* Content Section */}
-        <div className="w-full h-[56%] flex flex-col gap-2 p-2 border-t border-neutral-800">
-          <span className="text-lg font-medium">{item.label}</span>
-          <p className="text-md text-neutral-400">{item.description}</p>
+        <div className="w-full h-[56%] flex flex-col gap-2 p-2 border-t border-neutral-700">
+          <span className="text-lg font-bold">{item.label}</span>
+          <p className="font-semibold text-md text-neutral-400 lg:font-normal">{item.description}</p>
 
           <div className="links flex gap-1 flex-wrap">
             {item.skills.map((item, i) => (
@@ -29,7 +29,7 @@ const ProjectCard = ({ item }) => {
                 key={i}
                 className="w-fit bg-white px-3 py-1 rounded-sm flex justify-center"
               >
-                <span className="text-black text-sm font-medium leading-tight">
+                <span className="text-black text-sm font-semibold lg:font-normal leading-tight">
                   {item}
                 </span>
               </div>
@@ -46,7 +46,7 @@ const ProjectCard = ({ item }) => {
               className="w-full h-full bg-white text-black text-md font-medium leading-tight rounded-sm flex justify-center items-center"
             >
               <FontAwesomeIcon icon={faGithubSquare} className="w-6 h-6" />
-              <span className="ml-2">Github</span>
+              <span className="ml-2 font-semibold lg:font-normal">Github</span>
             </a>
 
             {item.link ? (
@@ -60,7 +60,7 @@ const ProjectCard = ({ item }) => {
                   icon={faSquareArrowUpRight}
                   className="w-6 h-6"
                 />
-                <span className="ml-2">Open</span>
+                <span className="ml-2 font-semibold lg:font-normal">Open</span>
               </a>
             ) : (
               <></>

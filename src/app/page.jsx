@@ -139,7 +139,7 @@ const App = () => {
                           href={`${item.url}`}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-block text-lg underline text-neutral-400 hover:text-white"
+                          className="inline-block text-lg underline text-neutral-400 hover:text-white font-semibold lg:font-normal"
                         >
                           {item.label}
                         </a>
@@ -148,12 +148,12 @@ const App = () => {
                   </div>
                 </div>
 
-                <p className="text-md  pt-6  font-normal tracking-normal leading-relaxed lg:text-lg">
-                  <span className="text-xl font-semibold inline-block lg:text-2xl">
+                <p className="pt-6  font-normal tracking-normal leading-relaxed lg:text-lg">
+                  <span className="text-xl font-bold inline-block lg:text-2xl">
                     Hi, I'm Harsh 😄{" "}
                   </span>
                   <br />
-                  Exploring AI, Machine Learning and Cybersecurity
+                  <span className="font-semibold lg:font-normal">Exploring AI, Machine Learning and Cybersecurity</span>
                 </p>
               </div>
 
@@ -163,7 +163,7 @@ const App = () => {
                   {" "}
                   About
                 </span>
-                <p className="text-md leading-relaxed lg:text-lg">
+                <p className="text-md font-semibold leading-relaxed lg:text-lg lg:font-normal">
                   I’m currently pursuing my Master’s in Computer Science at the
                   University of Alabama at Birmingham. Prior to this, I
                   completed my undergraduate studies in computer engineering,
@@ -213,7 +213,7 @@ const App = () => {
                       key={i}
                       className="w-fit bg-white px-3 py-1 rounded-sm flex justify-center"
                     >
-                      <span className="text-black text-sm font-medium leading-tight">
+                      <span className="text-black text-sm font-semibold lg:font-normal leading-tight">
                         {item}
                       </span>
                     </div>
@@ -257,7 +257,7 @@ const App = () => {
                   rel="noopener noreferrer"
                   className="w-full h-full p-1"
                 >
-                  <span className="w-full h-full bg-white text-black text-md font-medium flex justify-center items-center rounded-sm p-2">
+                  <span className="w-full h-full bg-white text-black text-  font-semibold lg:font-normal flex justify-center items-center rounded-sm p-2">
                     <FontAwesomeIcon
                       icon={faSquareArrowUpRight}
                       className="w-6 h-6 mr-2"
