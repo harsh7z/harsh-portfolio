@@ -7,7 +7,7 @@ const CertificateCard = ( {item} ) => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="w-full flex p-2 border-t border-neutral-400">
+                    <div className="w-full flex p-2 border-t border-neutral-800">
                       <Image
                         src={`${item.img}`} // relative to the public folder
                         alt="Harsh Patel"
