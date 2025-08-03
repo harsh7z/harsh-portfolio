@@ -170,7 +170,7 @@ const App = () => {
                   of Alabama at Birmingham, with a strong foundation in software
                   development from my undergraduate degree in Computer
                   Engineering. My current focus lies in artificial intelligence,
-                  applied machine learning, and cybersecurity—areas where I'm
+                  applied machine learning, and cybersecurity areas where I'm
                   passionate about building smart systems that learn, adapt, and
                   defend. Beyond academics, I’m constantly learning through
                   projects and hands-on exploration.
