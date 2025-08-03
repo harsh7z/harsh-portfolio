@@ -153,7 +153,9 @@ const App = () => {
                     Hi, I'm Harsh 😄{" "}
                   </span>
                   <br />
-                  <span className="font-semibold lg:font-normal">Exploring AI, Machine Learning and Cybersecurity</span>
+                  <span className="font-semibold lg:font-normal">
+                    CS Grad Student | AI & Cybersecurity Enthusiast
+                  </span>
                 </p>
               </div>
 
@@ -164,15 +166,14 @@ const App = () => {
                   About
                 </span>
                 <p className="text-md font-semibold leading-relaxed lg:text-lg lg:font-normal">
-                  I’m currently pursuing my Master’s in Computer Science at the
-                  University of Alabama at Birmingham. Prior to this, I
-                  completed my undergraduate studies in computer engineering,
-                  building a strong foundation in software development. Right
-                  now, I’m deeply exploring artificial intelligence, applied
-                  machine learning, and cybersecurity, fascinated by how smart
-                  systems can learn, adapt, and protect. Outside the classroom,
-                  I’m constantly learning through projects and hands-on
-                  exploration.
+                  I’m a Master’s student in Computer Science at the University
+                  of Alabama at Birmingham, with a strong foundation in software
+                  development from my undergraduate degree in Computer
+                  Engineering. My current focus lies in artificial intelligence,
+                  applied machine learning, and cybersecurity—areas where I'm
+                  passionate about building smart systems that learn, adapt, and
+                  defend. Beyond academics, I’m constantly learning through
+                  projects and hands-on exploration.
                 </p>
               </div>
 
