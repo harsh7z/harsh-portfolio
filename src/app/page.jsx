@@ -126,22 +126,23 @@ const App = () => {
               <div ref={bannerRef} className="banner flex flex-col opacity-0">
                 <div className="flex justify-between">
                   <Image
-                    src="/imgs/pfp.jpeg" // relative to the public folder
+                    src="/imgs/pfp.jpeg"
                     alt="Harsh Patel"
                     width={120}
                     height={120}
                     className="rounded-full pointer-events-none"
                   />
-                  <div className="socials  flex flex-col justify-center items-left ">
+                  <div className="w-fit socials flex flex-col justify-center items-center gap-1">
                     {socialLinks.map((item, i) => (
                       <div key={item.label}>
                         <a
                           href={`${item.url}`}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-block text-lg underline text-neutral-400 hover:text-white font-semibold lg:font-normal"
                         >
-                          {item.label}
+                          <div className="flex justify-center items-center w-9 h-9 bg-white text-black rounded-full">
+                            <FontAwesomeIcon icon={item.icon} size="lg"/>
+                          </div>
                         </a>
                       </div>
                     ))}
@@ -262,6 +263,7 @@ const App = () => {
                     <FontAwesomeIcon
                       icon={faSquareArrowUpRight}
                       className="w-6 h-6 mr-2"
+                      size="lg"
                     />
                     Check out more projects on github
                   </span>
@@ -287,7 +289,7 @@ const App = () => {
                       className="underline"
                       href="mailto:harshapatel112003@gmail.com"
                     >
-                      e-mail
+                      E-mail
                     </a>{" "}
                     or{" "}
                     <a

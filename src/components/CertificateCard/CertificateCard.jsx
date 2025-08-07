@@ -17,7 +17,7 @@ const CertificateCard = ( {item} ) => {
                       />
                       <div className="flex flex-col">
                         <span className="p-1 font-semibold lg:font-normal">
-                          {item.lable}{" "}
+                          {item.label}{" "}
                         </span>
                         <span className="p-1 text-neutral-400 text-sm">
                           {item.date}

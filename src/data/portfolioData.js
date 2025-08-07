@@ -1,21 +1,22 @@
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 const portfolioData = {
   socialLinks: [
-    //     {
-    //   label: "Resume",
-    //   url: "",
-    //   icon: faEnvelope,
-    // },
     {
       label: "LinkedIn",
       url: "https://www.linkedin.com/in/harshpatel03",
+      icon: faLinkedin,
     },
     {
       label: "GitHub",
       url: "https://github.com/harsh7z",
+      icon: faGithub,
     },
     {
       label: "Email Me",
       url: "mailto:harshapatel112003@gmail.com",
+      icon: faEnvelope,
     },
   ],
 
@@ -60,7 +61,7 @@ const portfolioData = {
 
   certificates: [
     {
-      lable: "AWS Academy Graduate - AWS Academy Cloud Foundations",
+      label: "AWS Academy Graduate - AWS Academy Cloud Foundations",
       img: "/imgs/certificates/aws.png",
       date: "October, 2023",
     },

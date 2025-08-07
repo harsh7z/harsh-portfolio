@@ -21,7 +21,9 @@ const ProjectCard = ({ item }) => {
         {/* Content Section */}
         <div className="w-full h-[56%] flex flex-col gap-2 p-2 border-t border-neutral-700">
           <span className="text-lg font-bold">{item.label}</span>
-          <p className="font-semibold text-md text-neutral-400 lg:font-normal">{item.description}</p>
+          <p className="font-semibold text-md text-neutral-400 lg:font-normal">
+            {item.description}
+          </p>
 
           <div className="links flex gap-1 flex-wrap">
             {item.skills.map((item, i) => (
@@ -45,7 +47,7 @@ const ProjectCard = ({ item }) => {
               rel="noopener noreferrer"
               className="w-full h-full bg-white text-black text-md font-medium leading-tight rounded-sm flex justify-center items-center"
             >
-              <FontAwesomeIcon icon={faGithubSquare} className="w-6 h-6" />
+              <FontAwesomeIcon icon={faGithubSquare} size="lg" />
               <span className="ml-2 font-semibold lg:font-normal">Github</span>
             </a>
 
@@ -59,6 +61,7 @@ const ProjectCard = ({ item }) => {
                 <FontAwesomeIcon
                   icon={faSquareArrowUpRight}
                   className="w-6 h-6"
+                  size="lg"
                 />
                 <span className="ml-2 font-semibold lg:font-normal">Open</span>
               </a>
