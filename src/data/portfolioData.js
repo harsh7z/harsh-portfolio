@@ -96,19 +96,19 @@ const portfolioData = {
         "OpenCV",
       ],
       description: "This is a Python-based Face ID system that can register multiple users, and later verify a person using facial similarity. It uses a Siamese Neural Network implemented in PyTorch and OpenCV for real-time webcam face capture.",
-            github: "https://github.com/harsh7z/faceID",
+            github: "https://github.com/harsh7z/face-recognition-system",
       link: ""
     },
     {
-      label: "Personal portfolio",
-      img: "imgs/projects/portfolio.png",
-      skills: ["Next.js", "React.js", "GSAP","Tailwind"],
-      description: "A modern, responsive personal portfolio built with Next.js, Tailwind CSS, and GSAP. Smooth scroll animations and section reveals enhance the user experience. Showcases skills, education, projects, certifications, and contact info in a clean, minimal design.",
-      github: "https://github.com/harsh7z/harsh-portfolio",
-      link: "https://harsh7z.vercel.app"
+      label: "GPT Token Visualizer",
+      img: "imgs/projects/gptTokenizer.png",
+      skills: ["Next.js", "Python", "NLP","Tokenization"],
+      description: "A small project that visualizes GPT tokenization and token usage across prompts and responses. The repository contains a Next.js frontend and a lightweight Python backend used to analyze and serve tokenization information.",
+      github: "https://github.com/harsh7z/gpt-token-visualizer",
+      link: ""
     },
     {
-      label: "wecare",
+      label: "Wecare",
       img: "imgs/projects/wecare.png",
       skills: [
         "React.js", 
