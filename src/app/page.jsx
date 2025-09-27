@@ -126,7 +126,7 @@ const App = () => {
               <div ref={bannerRef} className="banner flex flex-col opacity-0">
                 <div className="flex justify-between">
                   <Image
-                    src="/imgs/pfp.jpeg"
+                    src="/imgs/pfp.jpg"
                     alt="Harsh Patel"
                     width={120}
                     height={120}
