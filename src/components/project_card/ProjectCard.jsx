@@ -20,23 +20,10 @@ const ProjectCard = ({ item }) => {
 
         {/* Content Section */}
         <div className="w-full h-[56%] flex flex-col gap-2 p-2 border-t border-neutral-700">
-          <span className="text-lg font-bold">{item.label}</span>
+          <span className="text-lg font-bold text-white">{item.label}</span>
           <p className="font-semibold text-md text-neutral-400 lg:font-normal">
             {item.description}
           </p>
-
-          <div className="links flex gap-1 flex-wrap">
-            {item.skills.map((item, i) => (
-              <div
-                key={i}
-                className="w-fit bg-white px-3 py-1 rounded-sm flex justify-center"
-              >
-                <span className="text-black text-sm font-semibold lg:font-normal leading-tight">
-                  {item}
-                </span>
-              </div>
-            ))}
-          </div>
         </div>
 
         <div className="mt-auto w-full h-[12%]">

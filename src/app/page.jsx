@@ -140,8 +140,8 @@ const App = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <div className="flex justify-center items-center w-9 h-9 bg-white text-black rounded-full">
-                            <FontAwesomeIcon icon={item.icon} size="lg"/>
+                          <div className="flex justify-center items-center w-9 h-9 bg-neutral-300 text-black rounded-full">
+                            <FontAwesomeIcon icon={item.icon} size="lg" />
                           </div>
                         </a>
                       </div>
@@ -155,7 +155,7 @@ const App = () => {
                   </span>
                   <br />
                   <span className="font-semibold lg:font-normal">
-                    CS Grad Student | AI & Cybersecurity Enthusiast
+                    AI/ML Engineer | Robotics & Intelligent Systems
                   </span>
                 </p>
               </div>
@@ -209,29 +209,28 @@ const App = () => {
                   Skills
                 </span>
 
-                <div className="w-full flex flex-wrap gap-2 mt-2">
-                  {skills.map((item, i) => (
-                    <div
-                      key={i}
-                      className="w-fit bg-white px-3 py-1 rounded-sm flex justify-center"
-                    >
-                      <span className="text-black text-sm font-semibold lg:font-normal leading-tight">
-                        {item}
-                      </span>
+                <div className="w-full flex flex-col gap-2 mt-2">
+                  {Object.entries(skills).map(([category, items], i) => (
+                    <div key={i} className="w-full">
+                      {/* Category Title */}
+                      <h3 className="text-white text-base font-bold mb-2">
+                        {category}
+                      </h3>
+
+                      {/* Skills under the category */}
+                      <div className="flex flex-wrap gap-2">
+                        {items.map((item, j) => (
+                          <div
+                            key={j}
+                            className="w-fit bg-white px-3 py-1 rounded-sm flex justify-center"
+                          >
+                            <span className="text-black text-sm font-semibold lg:font-normal leading-tight">
+                              {item}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
                     </div>
-                  ))}
-                </div>
-              </div>
-
-              {/**certificates section */}
-              <div ref={certificateRef} className="flex flex-col opacity-0">
-                <span className="text-xl font-semibold inline-block pt-4 lg:text-2xl">
-                  Certificates
-                </span>
-
-                <div className="w-full flex flex-col border-b border-neutral-800">
-                  {certificates.map((item, i) => (
-                    <CertificateCard item={item} key={i} />
                   ))}
                 </div>
               </div>
@@ -269,6 +268,19 @@ const App = () => {
                   </span>
                 </a>
               </div>
+
+              {/**certificates section */}
+              {/* <div ref={certificateRef} className="flex flex-col opacity-0">
+                <span className="text-xl font-semibold inline-block pt-4 lg:text-2xl">
+                  Certificates
+                </span>
+
+                <div className="w-full flex flex-col border-b border-neutral-800">
+                  {certificates.map((item, i) => (
+                    <CertificateCard item={item} key={i} />
+                  ))}
+                </div>
+              </div> */}
 
               {/**connect section */}
               <div

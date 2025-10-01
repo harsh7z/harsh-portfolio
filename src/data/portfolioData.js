@@ -39,24 +39,69 @@ const portfolioData = {
     },
   ],
 
-  skills: [
-    "Python",
+  skills: {
+  "AI/ML & Data Science": [
+    "Deep Learning (CNNs, RNNs, GANs, LLMs)",
+    "Natural Language Processing (NLP)",
+    "Computer Vision",
+    "Reinforcement Learning",
+    "PyTorch",
     "TensorFlow",
-    "OpenCV",
-    "Linux",
+    "Keras",
+    "Hugging Face Transformers",
+    "scikit-learn",
+    "XGBoost",
+    "LangChain",
+    "OpenCV"
+  ],
+  "Robotics & Systems": [
+    "ROS (Robot Operating System)",
+    "SLAM (Simultaneous Localization and Mapping)",
+    "Edge AI Deployment",
+    "Real-time Systems Optimization"
+  ],
+  "MLOps & Infrastructure": [
+    "MLOps (MLflow, Weights & Biases)",
     "Docker",
-    "Git & GitHub",
+    "Kubernetes",
+    "Linux",
+    "CI/CD Pipelines",
+    "AWS",
+    "GCP",
+    "Azure"
+  ],
+  "Programming & Software Engineering": [
+    "Python",
+    "C++",
+    "Rust",
+    "Java",
+    "Bash",
+    "JavaScript",
+    "TypeScript"
+  ],
+  "Web & Backend Development": [
     "React.js",
     "Next.js",
-    "Tailwind CSS",
-    "JavaScript",
     "Node.js",
     "Express.js",
     "MongoDB",
-    "GSAP",
-    "AWS",
-    "Postman",
+    "SQL",
+    "GraphQL",
+    "REST APIs",
+    "Tailwind CSS",
   ],
+  "Security & Cryptography": [
+    "Cloud Security",
+    "Network Security",
+    "Modern Cryptography",
+    "Secure AI/ML Systems"
+  ],
+  "Version Control & Collaboration": [
+    "Git",
+    "GitHub"
+  ]
+  },
+
 
 
   certificates: [
