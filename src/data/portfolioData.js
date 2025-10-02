@@ -54,12 +54,12 @@ const portfolioData = {
     "LangChain",
     "OpenCV"
   ],
-  "Robotics & Systems": [
-    "ROS (Robot Operating System)",
-    "SLAM (Simultaneous Localization and Mapping)",
-    "Edge AI Deployment",
-    "Real-time Systems Optimization"
-  ],
+  // "Robotics & Systems": [
+  //   "ROS (Robot Operating System)",
+  //   "SLAM (Simultaneous Localization and Mapping)",
+  //   "Edge AI Deployment",
+  //   "Real-time Systems Optimization"
+  // ],
   "MLOps & Infrastructure": [
     "MLOps (MLflow, Weights & Biases)",
     "Docker",
