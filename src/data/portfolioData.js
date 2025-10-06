@@ -124,10 +124,10 @@ const portfolioData = {
     {
       label: "Tanvi Wealth PVT LTD, India",
       img: "imgs/work/tanvi_wealth.jpeg",
-      sublabel: "Full Stack Developer Intern",
+      sublabel: "Full Stack Developer",
       date: "Dec, 2023 - May, 2024",
       description:
-        "At Tanvi Wealth, I contributed to building a secure, full-stack portfolio management platform using the MERN stack to streamline how the company handled client financial data. I developed RESTful APIs to process real-time stock data and integrated third-party services to retrieve detailed portfolio insights. The platform was built with a strong focus on regulatory compliance and data security. On the front end, I enhanced the React.js interface for better performance and usability, helping the team onboard and support clients more efficiently.",
+        "From December 2023 to May 2024, I worked as a Full Stack Developer at Tanvi Wealth Pvt. Ltd., India, where I engineered and deployed cloud-integrated financial software solutions that enhanced system performance, scalability, and security. My work focused on designing and implementing secure transaction mechanisms using technologies such as Node.js and MongoDB, ensuring seamless and reliable financial operations for investors. I also played a key role in optimizing the user onboarding process by refining backend workflows and streamlining UI/UX components, which resulted in a 30% reduction in onboarding time. Collaborating closely with product managers and security engineers, I ensured that all systems complied with financial data protection standards while delivering a smooth and trustworthy user experience.",
     },
     {
       label: "Izonnet Web Solutions, India",
@@ -135,7 +135,7 @@ const portfolioData = {
       sublabel: "Full Stack Developer Intern",
       date: "May, 2023 - Jun, 2023",
       description:
-        "At Izonnet Technologies, I led the development of a location-based employee attendance system to improve workforce productivity tracking. I integrated the Google Geofence API for real-time location verification and automated check-ins, reducing manual errors. The system included a React.js admin dashboard and scalable backend services built with Node.js and MongoDB, which improved data accuracy and gave managers clearer visibility into team performance",
+        "Earlier, from May 2023 to June 2023, I interned as a Full Stack Developer at Izonnet Web Solutions Pvt. Ltd., India, where I led the development of an admin panel for an employee attendance management platform. I integrated the Google Maps API to enable real-time geospatial insights and live location tracking for employees. Using React.js, I designed and implemented a responsive, mobile-first interface that provided a consistent and intuitive user experience across all devices. This internship gave me practical experience in full-stack development and strengthened my ability to deliver end-to-end solutions that improve usability, automation, and data accuracy.",
     },
   ],
 
