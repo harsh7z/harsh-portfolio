@@ -167,14 +167,11 @@ const App = () => {
                   About
                 </span>
                 <p className="text-md font-semibold leading-relaxed lg:text-lg lg:font-normal">
-                  I’m a Master’s student in Computer Science at the University
-                  of Alabama at Birmingham, with a strong foundation in software
-                  development from my undergraduate degree in Computer
-                  Engineering. My current focus lies in artificial intelligence,
-                  applied machine learning, and cybersecurity areas where I'm
-                  passionate about building smart systems that learn, adapt, and
-                  defend. Beyond academics, I’m constantly learning through
-                  projects and hands-on exploration.
+                  Graduate Computer Science student specializing in AI/ML with
+                  hands-on experience developing and deploying production-ready
+                  models and scalable full-stack systems. Passionate about
+                  building intelligent, secure, and cloud-native applications
+                  that bridge deep learning research and real-world engineering.
                 </p>
               </div>
 
