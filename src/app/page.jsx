@@ -167,11 +167,14 @@ const App = () => {
                   About
                 </span>
                 <p className="text-md font-semibold leading-relaxed lg:text-lg lg:font-normal">
-                  Graduate Computer Science student specializing in AI/ML with
-                  hands-on experience developing and deploying production-ready
-                  models and scalable full-stack systems. Passionate about
-                  building intelligent, secure, and cloud-native applications
-                  that bridge deep learning research and real-world engineering.
+                  Graduate Computer Science student at the University of Alabama
+                  at Birmingham specializing in Artificial Intelligence, Machine
+                  Learning, and Cyber Security, with strong experience
+                  building end-to-end AI prototypes and full-stack web
+                  applications. Skilled in developing and integrating ML models
+                  into scalable systems. Passionate about designing intelligent,
+                  secure, and efficient solutions that combine software
+                  engineering principles with AI-driven innovation.
                 </p>
               </div>
 
