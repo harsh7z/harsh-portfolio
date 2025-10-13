@@ -36,6 +36,11 @@ export const metadata = {
   title: "Harsh Patel | Portfolio",
   description:
     "Harsh Patel's personal portfolio website built with Next.js, showcasing projects and skills.",
+  openGraph: {
+    title: "Harsh Patel | Portfolio",
+    description: "Harsh Patel's personal portfolio website built with Next.js, showcasing projects and skills.",
+    type: "website",
+  },
   icons: {
     icon: "/favicon.ico",
   },
