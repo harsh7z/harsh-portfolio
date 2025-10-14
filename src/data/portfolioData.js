@@ -25,7 +25,7 @@ const portfolioData = {
       label: "University of Alabama at Birmingham",
       img: "imgs/university/uab.png",
       sublabel: "Master's in Computer Science",
-      date: "August, 2024 - May, 2026",
+      date: "August, 2024 - December, 2026",
       description:
         "Relevant Coursework: Machine Learning, Deep Learning, Computer Vision, Artificial Intelligence, Computer Security, Cloud Computing, Cloud Security, Network Security, Modern Cryptography",
     },
