@@ -60,7 +60,7 @@ const MiniCard = ({ item }) => {
           alt={`${item.label}`}
           width={64}
           height={64}
-          className="rounded-full pointer-events-none border border-neutral-800  mr-2 shadow"
+          className="rounded-full pointer-events-none border border-neutral-300  mr-2 shadow"
         />
 
         <div className="flex-1/2 flex flex-col text-sm lg:text-lg">

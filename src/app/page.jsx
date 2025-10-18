@@ -113,7 +113,7 @@ const App = () => {
     <>
       <div
         id="smooth-wrapper"
-        className="overflow-hidden flex justify-center bg-black text-white"
+        className="overflow-hidden flex justify-center bg-white text-black"
       >
         <div
           id="smooth-content"
@@ -222,7 +222,7 @@ const App = () => {
                         {items.map((item, j) => (
                           <div
                             key={j}
-                            className="w-fit bg-white px-3 py-1 rounded-sm flex justify-center"
+                            className="w-fit bg-neutral-300 px-3 py-1 rounded-sm flex justify-center"
                           >
                             <span className="text-black text-sm font-semibold lg:font-normal leading-tight">
                               {item}
@@ -258,7 +258,7 @@ const App = () => {
                   rel="noopener noreferrer"
                   className="w-full h-full p-1"
                 >
-                  <span className="w-full h-full bg-white text-black text-  font-semibold lg:font-normal flex justify-center items-center rounded-sm p-2">
+                  <span className="w-full h-full bg-neutral-300 text-black text-  font-semibold lg:font-normal flex justify-center items-center rounded-sm p-2">
                     <FontAwesomeIcon
                       icon={faSquareArrowUpRight}
                       className="w-6 h-6 mr-2"
