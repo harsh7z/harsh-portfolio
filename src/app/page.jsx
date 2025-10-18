@@ -213,7 +213,7 @@ const App = () => {
                   {Object.entries(skills).map(([category, items], i) => (
                     <div key={i} className="w-full">
                       {/* Category Title */}
-                      <h3 className="text-white text-base font-bold mb-2">
+                      <h3 className="text-black text-base font-bold mb-2">
                         {category}
                       </h3>
 
