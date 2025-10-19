@@ -140,6 +140,18 @@ const portfolioData = {
   ],
 
   projects: [
+      {
+      label: "Enterprise Knowledge Assistant MCP Server",
+      img: "imgs/projects/mcp_server.png",
+      skills: [
+        "LLM orchestration,",
+        "RAG generation",
+        "MCP server",
+      ],
+      description: "A Python-based Model Context Protocol (MCP) server using FastMCP that connects an internal knowledge base to Claude or other MCP-capable LLMs. This allows employees or internal tools to search, retrieve, and ask questions about internal documents in a structured and auditable manner.",
+            github: "https://github.com/harsh7z/enterprise-knowledge-mcp.git",
+      link: ""
+    },
     {
       label: "Face ID System using Siamese Network (PyTorch + OpenCV)",
       img: "imgs/projects/faceID.png",
