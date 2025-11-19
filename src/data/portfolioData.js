@@ -169,15 +169,15 @@ const portfolioData = {
       img: "imgs/projects/gptTokenizer.png",
       skills: ["Next.js", "Python", "NLP","Tokenization"],
       description: "A small project that visualizes GPT tokenization and token usage across prompts and responses. The repository contains a Next.js frontend and a lightweight Python backend used to analyze and serve tokenization information.",
-      github: "https://github.com/harsh7z/gpt-token-visualizer",
+      github: "https://github.com/harsh7z/gpt-token-visualizar",
       link: ""
     },
     {
       label: "Wecare",
       img: "imgs/projects/wecare.png",
       skills: [
-        "React.js", 
-        "Express.js", 
+        "React.js",
+        "Express.js",
         "Node.js",
         "Mongodb"],
       description: "We Care is a personal project built using the MERN stack to help pet owners easily find and connect with reliable pet sitters. It features user-friendly search and booking options, making sure pets get the care they deserve while their owners are away.",
