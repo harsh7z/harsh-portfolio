@@ -153,7 +153,7 @@ const portfolioData = {
       link: ""
     },
     {
-      label: "Face ID System using Siamese Network (PyTorch + OpenCV)",
+      label: "Face ID System using Siamese Network",
       img: "imgs/projects/faceID.png",
       skills: [
         "Computer Vision",
@@ -162,6 +162,19 @@ const portfolioData = {
       ],
       description: "This is a Python-based Face ID system that can register multiple users, and later verify a person using facial similarity. It uses a Siamese Neural Network implemented in PyTorch and OpenCV for real-time webcam face capture.",
             github: "https://github.com/harsh7z/face-recognition-system",
+      link: ""
+    },
+    {
+      label: "Open Field Assay Rodent Tracking",
+      img: "imgs/projects/oft_tracker.png",
+      skills: [
+        "Computer Vision",
+        "YOLOv8",
+        "OpenCV",
+        "Python"
+      ],
+      description: "Real-time rodent tracking for Open Field Assay using YOLOv8. Faster and lighter than DeepLabCut, and a free alternative to EthoVision. Supports arena calibration, trajectory mapping, speed metrics, center-zone analysis, and heatmap/annotated video outputs.",
+      github: "https://github.com/harsh7z/oft-tracker",
       link: ""
     },
     {
