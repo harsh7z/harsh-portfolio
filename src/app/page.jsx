@@ -155,7 +155,7 @@ const App = () => {
                   </span>
                   <br />
                   <span className="font-semibold lg:font-normal">
-                    AI/ML Engineer | Robotics & Intelligent Systems
+                    AI/ML Engineer
                   </span>
                 </p>
               </div>
