@@ -167,14 +167,14 @@ const App = () => {
                   About
                 </span>
                 <p className="text-md font-semibold leading-relaxed lg:text-lg lg:font-normal">
-                  Graduate Computer Science student at the University of Alabama
-                  at Birmingham specializing in Artificial Intelligence, Machine
-                  Learning, and Cyber Security, with strong experience
-                  building end-to-end AI prototypes and full-stack web
-                  applications. Skilled in developing and integrating ML models
-                  into scalable systems. Passionate about designing intelligent,
-                  secure, and efficient solutions that combine software
-                  engineering principles with AI-driven innovation.
+                  I work on Artificial Intelligence, Machine Learning, and Cyber
+                  Security. I like building things that actually work, figuring
+                  out things as I go, including end-to-end AI prototypes and
+                  full-stack web applications. I’m good at taking machine
+                  learning models and fitting them into real systems so they can
+                  scale. What excites me most is creating smart, secure, and
+                  efficient solutions that mix solid software engineering with
+                  AI in practical, useful ways.
                 </p>
               </div>
 

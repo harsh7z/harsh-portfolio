@@ -40,77 +40,55 @@ const portfolioData = {
   ],
 
  skills: {
-    "AI/ML & Data Science": [
-      "Deep Learning (CNNs, RNNs, GANs, LLMs)",
-      "Natural Language Processing (NLP)",
-      "Computer Vision",
-      "Reinforcement Learning",
-      "PyTorch",
-      "TensorFlow",
-      "Keras",
-      "Hugging Face Transformers",
-      "scikit-learn",
-      "XGBoost",
-      "OpenCV"
-    ],
-    "Generative AI": [
-      "Large Language Models",
-      "Prompt Engineering & Optimization",
-      "LangChain & LlamaIndex",
-      "Fine-tuning LLMs (LoRA, RLHF)",
-      "Vector Databases (Pinecone, FAISS, Weaviate)",
-      "RAG (Retrieval-Augmented Generation)",
-      "Synthetic Data Generation"
-    ],
-    // "Robotics & Systems": [
-    //   "ROS (Robot Operating System)",
-    //   "SLAM (Simultaneous Localization and Mapping)",
-    //   "Path Planning Algorithms",
-    //   "Edge AI Deployment",
-    //   "Real-time Systems Optimization"
-    // ],
-    "MLOps & Infrastructure": [
-      "MLOps (MLflow, Weights & Biases)",
-      "Docker",
-      "Kubernetes",
-      "Linux",
-      "CI/CD Pipelines",
-      "AWS",
-      "GCP",
-      "Azure"
-    ],
-    "Programming & Software Engineering": [
-      "Python",
-      "C++",
-      "Rust",
-      "Go",
-      "Java",
-      "JavaScript",
-      "TypeScript"
-    ],
-    "Web & Backend Development": [
-      "React.js",
-      "Next.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "SQL",
-      "GraphQL",
-      "REST APIs",
-      "Tailwind CSS",
-      "Postman"
-    ],
-    "Security & Cryptography": [
-      "Cloud Security",
-      "Network Security",
-      "Modern Cryptography",
-      "Secure AI/ML Systems"
-    ],
-    "Version Control & Collaboration": [
-      "Git",
-      "GitHub"
-    ]
-  },
+  "Machine Learning & AI": [
+    "Deep Learning (CNNs, Transformers, GANs, LLMs)",
+    "NLP",
+    "Computer Vision",
+    "Reinforcement Learning",
+    "Retrieval-Augmented Generation (RAG)",
+    "Embeddings & Vector Search"
+  ],
+  "ML Platforms & MLOps": [
+    "PyTorch",
+    "TensorFlow",
+    "Hugging Face",
+    "MLFlow",
+    "Weights & Biases",
+    "Docker",
+    "Kubernetes",
+    "CI/CD Pipelines"
+  ],
+  "LLM Systems & Orchestration": [
+    "Prompt Engineering",
+    "Tool/Function Calling",
+    "Agentic Workflows",
+    "Vector Database (FAISS, Pinecone, Pgvector)"
+  ],
+  "Software Engineering": [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Bash",
+    "REST & GraphQL APIs",
+    "Database (SQL, MongoDB)"
+  ],
+  "Frontend & Product Engineering": [
+    "React.js",
+    "Next.js",
+    "GSAP",
+    "Node.js"
+  ],
+  "Cloud Services": [
+    "AWS Lambda",
+    "AWS Elastic Beanstalk",
+    "AWS CLI",
+    "AWS EC2",
+    "AWS S3",
+    "AWS RDS",
+    "AWS IAM"
+  ]
+}
+,
 
   certificates: [
     {
