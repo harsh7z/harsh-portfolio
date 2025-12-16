@@ -126,7 +126,7 @@ const portfolioData = {
         "RAG generation",
         "MCP server",
       ],
-      description: "A Python-based Model Context Protocol (MCP) server using FastMCP that connects an internal knowledge base to Claude or other MCP-capable LLMs. This allows employees or internal tools to search, retrieve, and ask questions about internal documents in a structured and auditable manner.",
+      description: "A Python-based MCP server built with FastMCP that connects internal knowledge bases to Claude or other MCP-capable LLMs, allowing employees and tools to search, retrieve, and query internal documents in a structured, auditable way.",
             github: "https://github.com/harsh7z/enterprise-knowledge-mcp.git",
       link: ""
     },
